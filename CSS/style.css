@@ -1,0 +1,81 @@
+* {
+    font-family: "Quicksand";
+}
+
+.navigation {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #9ccfd8;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 20px;
+    float: left;
+    color: #191724;
+}
+
+.navigation a:hover {
+    color: #555169;
+}
+
+.contacts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 10%;
+}
+
+.box {
+    background-color: #6e6a86;
+    width: 200px;
+    height: 120px;
+    display: flex;
+    color: #e0def4;
+}
+
+body {
+    margin-left: 275px;
+    background-color: #ebbcba;
+}
+
+.ContactForm {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10%;
+}
+
+.FormBox {
+    padding: 15px;
+}
+
+.SaveContact {
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #31748f;
+    color: #e0def4;
+}
+
+.Cancel {
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #eb6f92;
+    color: #e0def4;
+}
+
+.PlusButton {
+    background-color: transparent;
+    border-color: transparent;
+}
